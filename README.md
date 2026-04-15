@@ -160,6 +160,35 @@ Todas as respostas seguem o formato:
 
 ---
 
+## 💡 Modo Alternativo de Persistência (JSON)
+
+Além da integração com PostgreSQL, o projeto também suporta um modo alternativo de persistência utilizando arquivos JSON armazenados localmente.
+
+Esse modo foi pensado para:
+
+- Testes locais rápidos sem necessidade de banco de dados
+- Execução simplificada da aplicação
+- Uso em interfaces de linha de comando (CLI), que foi a ideia inicial do projeto
+
+### 🔄 Como funciona
+
+A aplicação segue o padrão de Repository com Adapter, permitindo trocar facilmente a implementação de persistência.
+
+Para utilizar arquivos JSON em vez do banco de dados:
+
+- Utilize a implementação `FileReviewRepository`
+- Configure a aplicação para usar esse repository no lugar do adapter JPA
+
+### 📌 Vantagens
+
+- Não depende de infraestrutura externa
+- Ideal para testes rápidos
+- Facilita prototipação e experimentação
+
+Essa abordagem reforça a flexibilidade da arquitetura adotada.
+
+---
+
 ## 🚀 Próximos Passos
 
 * 🔐 Autenticação e autorização (Spring Security + JWT)

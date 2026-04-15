@@ -1,0 +1,55 @@
+[ {
+  "id" : "e17450cf-0d92-4eac-a4b9-881dc24fcf1e",
+  "userName" : "Vinicius",
+  "bookTitle" : "Mistborn Braceletes da perdicao",
+  "rating" : 10,
+  "reviewText" : "Muito bom"
+}, {
+  "id" : "bd8e5b28-0322-49b3-9cff-1b7caab0729b",
+  "userName" : "Vinicius",
+  "bookTitle" : "Os Simpsons",
+  "rating" : 10,
+  "reviewText" : "Muito bom"
+}, {
+  "id" : "1a9de877-905b-44fd-b425-8e729e12e7b1",
+  "userName" : "vinicius",
+  "bookTitle" : "Clean Code",
+  "rating" : 5,
+  "reviewText" : "Excelente livro"
+}, {
+  "id" : "ea54061f-9756-42c8-965e-fc6f9a770a2f",
+  "userName" : "vinicius",
+  "bookTitle" : "Clean Code",
+  "rating" : 5,
+  "reviewText" : "Excelente livro"
+}, {
+  "id" : "e2fdc357-73bb-410b-a624-43ec6a16f147",
+  "userName" : "vinicius",
+  "bookTitle" : "Clean Code",
+  "rating" : 5,
+  "reviewText" : "Excelente livro"
+}, {
+  "id" : "3e86e319-4c78-42b3-9a17-92d6bf8029dd",
+  "userName" : "vinicius",
+  "bookTitle" : "Refactoring",
+  "rating" : 4,
+  "reviewText" : "Muito bom, mas mais avançado"
+}, {
+  "id" : "d8685e78-c5ad-4c2a-bd94-a94485248846",
+  "userName" : "vinicius",
+  "bookTitle" : "Clean Architecture",
+  "rating" : 9,
+  "reviewText" : "Excelente livro, recomendo bastante"
+}, {
+  "id" : "cf63b162-1fc3-475d-a9c6-611ea044059c",
+  "userName" : "Vinicius",
+  "bookTitle" : "Danca da Morte",
+  "rating" : 4,
+  "reviewText" : "Livro ruim do caralho "
+}, {
+  "id" : "42b95d2c-4447-4e3c-8652-8d1b7035da10",
+  "userName" : "Vinicius SS",
+  "bookTitle" : "Mistborn Braceletes do perdigao",
+  "rating" : 10,
+  "reviewText" : "Muito bom, recomendo pra porra"
+} ]

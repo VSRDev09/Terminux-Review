@@ -1,0 +1,115 @@
+# ===============================
+# BUILD / OUTPUT
+# ===============================
+target/
+build/
+out/
+bin/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# ===============================
+# IDEs
+# ===============================
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===============================
+# LOGS
+# ===============================
+*.log
+logs/
+*.out
+
+# ===============================
+# ENV / CONFIG SENSÍVEL
+# ===============================
+.env
+.env.*
+*.env
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# ===============================
+# TEMP / OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+
+# ===============================
+# JAVA
+# ===============================
+*.class
+*.jar
+*.war
+*.ear
+
+# ===============================
+# TEST / COVERAGE
+# ===============================
+coverage/
+*.exec
+*.hprof
+
+# ===============================
+# DOCKER 
+# ===============================
+docker-compose.override.yml
+
+# ===============================
+# 🔑 KEYS / CERTS 
+# ===============================
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# ===============================
+# DATABASE LOCAL FILES
+# ===============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ===============================
+# CACHE / TOOLING
+# ===============================
+.cache/
+node_modules/  
+
+# ===============================
+# EXCEÇÕES IMPORTANTES
+# ===============================
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/

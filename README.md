@@ -191,11 +191,13 @@ Essa abordagem reforça a flexibilidade da arquitetura adotada.
 
 ## 🚀 Próximos Passos
 
-* 🔐 Autenticação e autorização (Spring Security + JWT)
-* 🧪 Testes unitários e de integração
-* 📄 Paginação
-* 🛠️ Migrations com Flyway
-* 📊 Logs e observabilidade
+- [ ] 🔐 Implementar autenticação e autorização com JWT (Spring Security)
+- [ ] 🐳 Dockerizar a aplicação
+- [ ] 🧠 Polimento contínuo da arquitetura e evolução das entidades conforme novas necessidades
+- [ ] 🎨 Desenvolver um front-end para consumo da API
+- [ ] 🧪 Expandir cobertura de testes (unitários e integração)
+- [ ] 📄 Implementar paginação
+- [ ] 🛠️ Adicionar migrations (Flyway ou Liquibase)
 
 ---
 
